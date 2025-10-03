@@ -35,6 +35,7 @@ pip3 install --user -e .
                   
                   echo " Running
 tests..."
+export PYTHONPATH=$PWD
                   python3 -m pytest -q
                 '''
             }
