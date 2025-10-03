@@ -33,8 +33,7 @@ requirements.txt
                   
                   echo " Running
 tests..."
-export PYTHONPATH=$PWD
-                  python3 -m pytest -q
+PYTHONPATH=$PWD python3 -m pytest -q 
                 '''
             }
         }
